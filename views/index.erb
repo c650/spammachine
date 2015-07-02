@@ -4,6 +4,8 @@
 <head>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="icon" href="smiley_face.ico" />
+  <script type="text/javascript" src="scripts/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Your Spam Machine</title>
@@ -25,12 +27,12 @@
       <div class="container">
         <h1>Welcome to <i>Your Spam Machine!</i></h1>
         <form name="sms"method="POST" action="/">
-          <input class="input_box" type="text" name="phone_number" placeholder="PHONE NUMBER"><br>
-          <input class="input_box" type="text" name="message" placeholder="MESSAGE">
+          <input id="phone" class="input_box" type="text" name="phone_number" placeholder="PHONE NUMBER"><br>
+          <input id="msg" class="input_box" type="text" name="message" placeholder="MESSAGE">
           <br>
-          <input class="input_box" type="text" name="times" placeholder="# of TIMES">
+          <input id="times" class="input_box" type="text" name="times" placeholder="# of TIMES">
           <br>
-          <button type="submit" class="btn btn-default" id="submit">SUBMIT</button>
+          <button id="submit" type="submit" class="btn btn-default"><span id="share_btn"class="glyphicon glyphicon-off"></span>SUBMIT</button>
         </form> 
       </div>
     </div>
