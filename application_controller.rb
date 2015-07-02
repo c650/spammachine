@@ -19,6 +19,6 @@ class MyApp < Sinatra::Base
   end
 
   get '/' do
-    erb :index
+    redirect :index
   end
 end

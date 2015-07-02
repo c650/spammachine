@@ -22,14 +22,14 @@
 @import "bootstrap";
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 body {
-	background-image: url('/images/dark_wall.png');
+	background-image: url('/images/background.png');
 	font-family: 'Ubuntu','Montserrat', 'Roboto Slab', Georgia, sans-serif;
 }
 
 #titlebar {
 	color: white;
 	font-size: 100px;
-	background-color: rgba(3,3,3,0.3);
+	background-color: rgba(3,3,3,0.4);
 	padding-left: 10px;
 }
 #nav {
@@ -61,6 +61,7 @@ form {
 h1{ 
 	font-family: 'Montserrat', 'Roboto Slab', Georgia, sans-serif;
 	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
 }
 .input_box {
 	height: 50px;
@@ -68,7 +69,7 @@ h1{
 	font-size: 35px;
 	font-family: 'Roboto Slab', Georgia, sans-serif;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 3px;
 	border: solid 3px #666666;
 }
 #submit {
@@ -84,7 +85,7 @@ h1{
 	border-radius: 0px;
 }
 #submit:hover {
-	background-color: red;
+	background-color: #FEDE58;
 	height: 60px;
 	font-size: 36px;
 	width: auto;
@@ -93,5 +94,5 @@ h1{
 	margin-right: 5px;
 }
 #phone {
-	margin-left: -1px;
+	margin-left: -3px;
 }
