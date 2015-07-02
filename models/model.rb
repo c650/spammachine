@@ -4,7 +4,7 @@
  	time = time.to_i
  	@msg_array = Array.new
  	time.times do |x|
-+		break if ((msg.length)*(@msg_array.length)) > 1599
+ 				break if ((msg.length)*(@msg_array.length)) > 1599
  		@msg_array.push(msg)
  	end
  

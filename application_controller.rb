@@ -1,4 +1,4 @@
-require 'Sinatra'
+require 'sinatra'
 require 'bundler'
 Bundler.require
 require 'twilio-ruby'
