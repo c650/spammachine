@@ -22,14 +22,14 @@
 @import "bootstrap";
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 body {
-	background-image: url('/images/dark_wall.png');
+	background-image: url('/images/background.png');
 	font-family: 'Ubuntu','Montserrat', 'Roboto Slab', Georgia, sans-serif;
 }
 
 #titlebar {
 	color: white;
 	font-size: 100px;
-	background-color: rgba(3,3,3,0.3);
+	background-color: rgba(3,3,3,0.4);
 	padding-left: 10px;
 }
 #nav {
@@ -61,6 +61,7 @@ form {
 h1{ 
 	font-family: 'Montserrat', 'Roboto Slab', Georgia, sans-serif;
 	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
 }
 .input_box {
 	height: 50px;
