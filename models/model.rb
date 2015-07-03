@@ -20,7 +20,7 @@ def send_spam(phone, msg, time, pic_msg = 'http://41.media.tumblr.com/tumblr_lvr
 		:from => '+17862920603',  
 		:to => phone,
 		:body => msg,
-		:MediaUrl => pic_msg
+		:media_url => pic_msg
 	})
 
 end
