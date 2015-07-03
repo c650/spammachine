@@ -16,9 +16,8 @@ class MyApp < Sinatra::Base
   	@times = params[:times]
 
     send_spam(@phone_number, @message, @times)
+
+    erb :index
   end
 
-  get '/' do
-    redirect :index
-  end
 end

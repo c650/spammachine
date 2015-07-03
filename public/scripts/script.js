@@ -50,6 +50,7 @@ $(document).ready(function() {
 		$('#phone').css('font-size', '35px');
 	});
 
+//so that when you go to submit the yellow goes away
 	$('#submit').click(function() {
 		$('#phone').css('border','solid 3px #666666');
 		$('#msg').css('border','solid 3px #666666');
