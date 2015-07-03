@@ -1,6 +1,6 @@
 require 'twilio-ruby'
 
-def send_spam(phone, msg, time, pic_msg = 'http://41.media.tumblr.com/tumblr_lvrfnaXz651qibz0jo1_r1_500.png')
+def send_spam(phone, msg, time)
 	time = time.to_i
 	@msg_array = Array.new
 	time.times do |x|
@@ -20,7 +20,7 @@ def send_spam(phone, msg, time, pic_msg = 'http://41.media.tumblr.com/tumblr_lvr
 		:from => '+17862920603',  
 		:to => phone,
 		:body => msg,
-		:media_url => pic_msg
+		:media_url => 'http://41.media.tumblr.com/tumblr_lvrfnaXz651qibz0jo1_r1_500.png'
 	})
 
 end

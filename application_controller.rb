@@ -14,12 +14,8 @@ class MyApp < Sinatra::Base
   	@phone_number = params[:phone_number]
   	@message = params[:message]
   	@times = params[:times]
-    @pic_msg = params[:pic_msg]
-    if @pic_msg != nil
-      send_spam(@phone_number, @message, @times, @pic_msg)
-    else
-      send_spam(@phone_number, @message, @times)
-    end
+    
+    send_spam(@phone_number, @message, @times)
   end
 
   get '/' do
