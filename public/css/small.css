@@ -1,0 +1,98 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree ../../../vendor/assets/stylesheets/.
+ *= require_tree .
+ *= require_self
+ //= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
+ //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+ //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
+ //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
+ */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Montserrat|Roboto+Slab);
+@import "bootstrap";
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+body {
+	background-image: url('/images/background.png');
+	font-family: 'Ubuntu','Montserrat', 'Roboto Slab', Georgia, sans-serif;
+}
+
+#titlebar {
+	color: white;
+	font-size: 60px;
+	background-color: rgba(3,3,3,0.4);
+	padding-left: 10px;
+}
+#nav {
+	background-color: rgba(3,3,3,0.5);
+	border-top: solid 4px #FFFFFF;
+}
+ul {
+	list-style-type: none;
+	margin: 20px;
+}
+li {
+	display: inline;
+}
+.pic1 {
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#content {
+	color: white;
+
+	text-align: center;
+}
+form {
+	color: black;
+}
+h1{ 
+	font-family: 'Montserrat', 'Roboto Slab', Georgia, sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+}
+.input_box {
+	height: 50px;
+	width: 400px;
+	font-size: 35px;
+	font-family: 'Roboto Slab', Georgia, sans-serif;
+	text-align: center;
+	margin-bottom: 3px;
+	border: solid 3px #666666;
+}
+#submit {
+	height: 50px;
+	width: auto;
+	font-family: 'Roboto Slab', Georgia, sans-serif;
+	text-align: center;
+	margin-top: 20px; 
+	font-size: 30px;
+	background-color: rgba(3,3,3,0.7);
+	color: white;
+	border: none;
+	border-radius: 0px;
+}
+#submit:hover {
+	background-color: #FEDE58;
+	height: 60px;
+	font-size: 36px;
+	width: auto;
+}
+#share_btn {
+	padding-right: 5px;
+}
+#phone {
+	margin-left: -3px;
+}
