@@ -32,17 +32,6 @@ body {
 	background-color: rgba(3,3,3,0.4);
 	padding-left: 10px;
 }
-#nav {
-	background-color: rgba(3,3,3,0.5);
-	border-top: solid 4px #FFFFFF;
-}
-ul {
-	list-style-type: none;
-	margin: 20px;
-}
-li {
-	display: inline;
-}
 .pic1 {
 	height: 60px;
 	width: 60px;

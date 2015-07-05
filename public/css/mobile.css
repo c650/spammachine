@@ -28,16 +28,17 @@ body {
 
 #titlebar {
 	color: white;
-	font-size: 100px;
+	font-size: 200%;
 	background-color: rgba(3,3,3,0.4);
 	padding-left: 10px;
 }
 .pic1 {
-	height: 10%;
-	width: 10%;
+	height: 35px;
+	width: 35px;
 	float: left;
 	margin-top: 10px;
 	margin-right: 10px;
+	display: none;
 }
 #content {
 	color: white;
@@ -53,9 +54,6 @@ h1{
 	text-shadow: 2px 2px 4px #000000;
 }
 .input_box {
-	height: 50px;
-	width: 400px;
-	font-size: 35px;
 	font-family: 'Roboto Slab', Georgia, sans-serif;
 	text-align: center;
 	margin-bottom: 3px;
