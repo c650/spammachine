@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  if($(window).width > 720) {
 	$('#phone').click(function() {
 		$('#msg').height('30px');
 		$('#msg').css('font-size', '20px');
@@ -62,5 +61,4 @@ $(document).ready(function() {
 		$('#msg').css('border','solid 3px #666666');
 		$('#times').css('border','solid 3px #666666');
 	});
-  }
 });
