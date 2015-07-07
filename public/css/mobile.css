@@ -53,6 +53,12 @@ h1{
 	text-align: center;
 	text-shadow: 2px 2px 4px #000000;
 }
+h6 { 
+	font-family: 'Montserrat', 'Roboto Slab', Georgia, sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 0.5em;
+}
 .input_box {
 	font-family: 'Roboto Slab', Georgia, sans-serif;
 	text-align: center;
