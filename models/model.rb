@@ -20,8 +20,8 @@ def send_spam(phone, msg, time) #declaration of method for sending spam
 
 	msg = @msg_array.join(' ') #converts the array to a string with a space between each element
 
-	account_sid = 'AC633a4f798afcb2aba4ae658ab3ddf465'
-	auth_token = 'dade8c6c18cad71adc0947977dd5edf7'
+	account_sid = ''
+	auth_token = ''
 
 	@client = Twilio::REST::Client.new account_sid, auth_token #code to send actual text message
 
